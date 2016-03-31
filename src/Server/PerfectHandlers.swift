@@ -3,11 +3,11 @@ import MySQL
 //public method that is being called by the server framework to initialise your module.
 
 // host where mysql server is
-let HOST = "127.0.0.1"
+let HOST = "mysql://bc44c07f739aab:18b62184@us-cdbr-iron-east-03.cleardb.net/heroku_a51e4868e5ceaa4?reconnect=true"
 // mysql username
-let USER = "di3twater"
+let USER = "bc44c07f739aab"
 // mysql root password
-let PASSWORD = "walton21*" // make your password something MUCH safer!!!
+let PASSWORD = "18b62184" // make your password something MUCH safer!!!
 // database name
 let SCHEMA = "RandomPosts"
 // table name
